@@ -95,7 +95,7 @@ if st.session_state['state'] == 1:
 
 
 
-    if st.button("The graph looks somewhat off..."):
+    with st.expander("The graph looks somewhat off..."):
         st.subheader("Okayyy, whom am I kidding xD.")
         st.subheader("THIS is the real graph ❤️❤️")
         start_date = "2022-10-21"
